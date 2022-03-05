@@ -1,0 +1,57 @@
+.searchBar{
+  height: 40px;
+  width: 360px;
+  margin-top: 3px;
+  margin-left: 10px;
+  padding-left: 13px;
+  font-family: 'Nunito';
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: #798188;
+}
+
+header{
+  background-color: #f6f4f3;
+  padding: 12px;
+  height: 50px;
+  display: flex;
+}
+
+header > img{
+  margin-left: 4px;
+}
+
+menu{
+  margin-left: auto;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+menu > ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+menu > ul > li{
+  float:left;
+}
+
+menu > ul > li > a{
+  display: block;
+  padding: 6px;
+  color: #7f4677;
+  text-align: center;
+  text-decoration: none;
+}
+
+menu > ul > li > a > h1{
+  font-size: 14px;
+  margin-top: 1px;
+}
+
+menu > ul > li > a:hover{
+  color: #2d1554;
+}
