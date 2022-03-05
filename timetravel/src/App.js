@@ -3,10 +3,12 @@ import board_news from './board_news.png';
 import ontable from './ontable.png';
 import planszeo from './planszeo.png';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
+    <> 
+    {/* ReactFragment */}
       <header>
             <img src={logo} className="logo_header"/>
             <input type="text" className="searchBar" placeholder="Wpisz tytuł gry"/>
@@ -57,7 +59,7 @@ function App() {
                 </div>
             </div>
         </section>
-    </div>
+    </>
   );
 }
 
