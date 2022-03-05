@@ -1,0 +1,38 @@
+.inf01{
+  background-color: #201633;
+  height: 48px;
+  text-align: center;
+  padding: 5px;
+}
+
+.inf01 > a, .inf02 > a{
+  text-decoration: none;
+}
+
+.inf01 > a > h1{
+  color: white;
+  font-size: 18px;
+}
+
+.inf01 > a > h1:hover{
+  color: #998a99;
+}
+
+.inf02{
+  background-color: #51895d;
+  height: 30px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 0;
+  padding: 1px;
+}
+
+.inf02 > a > h1{
+  color: white;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.inf02 > a > h1:hover{
+  color: #201633;
+}
