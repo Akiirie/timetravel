@@ -4,10 +4,3 @@ body{
   background-color: #e5dfdf;
   font-family: 'Nunito';
 }
-
-header{
-  background-color: #f6f4f3;
-  padding: 12px;
-  height: 50px;
-  display: flex;
-}

@@ -1,4 +1,7 @@
 import logo from './logo.svg';
+import board_news from './board_news.png';
+import ontable from './ontable.png';
+import planszeo from './planszeo.png';
 import './App.css';
 
 function App() {
@@ -19,6 +22,41 @@ function App() {
                 </ul>
             </menu>
         </header>
+
+        <div class="inf01">
+            <a href="#"><h1>APLIKACJA MOBILNA Planszeo</h1></a>
+        </div>
+        <div class="inf02">
+            <a href="#"><h1>KALENDARZ premier i dodruków</h1></a>
+        </div>
+
+        <section>
+            <h1 class="title_section">Kalendarz premier i dodruków. Tworzony przez:</h1>
+            <div class="sponsor">
+                <img src={board_news}/>
+                <img src={ontable}/>
+                <img src={planszeo}/>
+            </div>
+            <div>
+                <div class="section_year">
+                    <button class="year year2021"><h1>2021</h1></button> <button class="year year2022"><h1>2022</h1></button>
+                </div>
+                <div class="section_month">
+                    <button class="months"><h1>styczeń</h1></button>
+                    <button class="months"><h1>luty</h1></button>
+                    <button class="months"><h1>marzec</h1></button>
+                    <button class="months"><h1>kwiecień</h1></button>
+                    <button class="months"><h1>maj</h1></button>
+                    <button class="months"><h1>czerwiec</h1></button>
+                    <button class="months"><h1>lipiec</h1></button>
+                    <button class="months"><h1>sierpień</h1></button>
+                    <button class="months"><h1>wrzesień</h1></button>
+                    <button class="months"><h1>październik</h1></button>
+                    <button class="months"><h1>listopad</h1></button>
+                    <button class="months"><h1>grudzień</h1></button>
+                </div>
+            </div>
+        </section>
     </div>
   );
 }
