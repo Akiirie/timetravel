@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e5dfdf;
+    font-family: 'Nunito';
+}
+
+header{
+    background-color: #f6f4f3;
+    padding: 12px;
+    height: 50px;
+    display: flex;
+}
+
+.searchBar{
+    height: 40px;
+    width: 360px;
+    margin-top: 3px;
+    margin-left: 10px;
+    padding-left: 13px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: #798188;
+}
+
+menu{
+    margin-left: auto;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+menu > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+menu > ul > li{
+    float:left;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 6px;
+    color: #7f4677;
+    text-align: center;
+    text-decoration: none;
+}
+
+menu > ul > li > a > h1{
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+menu > ul > li > a:hover{
+    color: #2d1554;
+}
+
+.inf01{
+    background-color: #201633;
+    height: 48px;
+    text-align: center;
+    padding: 5px;
+}
+
+.inf01 > a{
+    text-decoration: none;
+}
+
+.inf01 > a > h1{
+    color: white;
+    font-size: 18px;
+}
+
+.inf01 > a > h1:hover{
+    color: #998a99;
+}
+
+.inf02{
+    background-color: #51895d;
+    height: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0;
+    padding: 1px;
+}
+
+.inf02 > a{
+    text-decoration: none;
+}
+
+.inf02 > a > h1{
+    color: white;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.inf02 > a > h1:hover{
+    color: #201633;
+}
+
+section{
+    background-color: #f1edeb;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1px;
+    margin-top: 20px;
+}
+
+.title_section{
+    font-size: 30px;
+    color: #4b5563;
+    margin-top: 20px;
+}
+
+.sponsor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.year{
+    margin-top: 10px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: #f1edeb;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 17px;
+    float: left;
+}
+
+.year > h1{
+    font-size: 19px;
+    font-family: 'Nunito';
+    margin-top: 5px;
+}
+
+.year2021, .year2022{
+    border: 2px solid #7f4677;
+    color: #7f4677;
+    display: inline-block;
+}
+
+.year2021{
+    margin-left: 20px;
+}
+
+.year2022{
+    margin-left: 5px;
+}
+
+.year:hover{
+    border: 2px solid #7f4677;
+    color: white;
+    background-color: #7f4677;
+}
+
+.section_year, .section_month{
+    display: flex;
+}
+
+.section_month{
+    margin-left: 14px;
+}
+
+.months{
+    margin-top: 10px;
+    margin-left: 6px;
+    border: none;
+    width: 100px;
+    height: 32px;
+    background-color: #f1edeb;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 17px;
+    float: left;
+    border: 2px solid #7f4677;
+    color: #7f4677;
+}
+
+.months > h1{
+    font-size: 15px;
+    font-family: 'Nunito';
+    margin-top: 3px;
+}
+
+.months:hover{
+    border: 2px solid #7f4677;
+    color: white;
+    background-color: #7f4677;
+}
+
+.sponsor > img{
+    height: 80px;
+}
+
+header > img{
+    margin-left: 4px;
+}
